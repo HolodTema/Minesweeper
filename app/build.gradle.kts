@@ -32,6 +32,9 @@ android {
 }
 
 dependencies {
+    //viewModel and liveData
+    implementation(libs.liveData)
+    implementation(libs.viewmodel)
 
     implementation(libs.appcompat)
     implementation(libs.material)
